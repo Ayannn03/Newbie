@@ -1,0 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Lora&family=Outfit:wght@400;700&display=swap');
+
+body {
+    background-color: #CFD8DC;
+    font-family:'Outfit';
+    font-size: 15px;
+  }
+  
+  .gcash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+
+  }
+  
+  .gcash img {
+    height: 300px;
+    width: 295px;
+    border-radius: 10px;
+  }
+  
+  .bgcolor {
+    background-color: white;
+    border-radius: 15px;
+    height: 480px;
+    width: 325px;
+    padding-top: 2px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+.all{
+  display: flex;
+  justify-content: center;
+  
+}
+  
+  .text {
+    text-align: center;
+   
+  }
+  .skills{
+    font-weight: bold;
+
+  }
+  .Scan {
+    margin-top: -25px;
+    padding-bottom: 20px;
+    opacity: 50%;
+
+    
+  }
+  .attribution {
+    text-align: center;
+    
+  }
+
+  @media screen and (min-width:375px){
+    .all{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .bgcolor{
+      margin-top: 80px;
+      margin-bottom: 30px;
+      height: 500px;
+    }
+  
+  }
+ 
+  @media screen and (min-width:1440px){
+    .all{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .bgcolor{
+      margin-top: 300px;
+      margin-bottom: 50px;
+    }
+  
+  }
+ 
